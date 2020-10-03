@@ -23,6 +23,7 @@ GitHub repo: [MichaelCurrin/logos](https://github.com/MichaelCurrin/logos)
 
 <svg class="logo-small">
     <use xlink:href="{{ logo_base_url }}{{ name }}.svg#logo-{{ name }}"></use>
+    <span>Jekyll</span>
 </svg>
 ```
 {% endraw %}
@@ -31,9 +32,9 @@ Styling:
 
 ```css
 /* On svg element. */
-.logo-small {
-    width: 20px;
-    height: 20px;
+.logo-large {
+    width: 50px;
+    height: 50px;
 }
 
 /* On external svg asset loaded using `use`. */
@@ -49,13 +50,14 @@ Styling:
 
 <svg class="logo-small">
     <use xlink:href="{{ logo_base }}{{ name }}.svg#logo-{{ name }}"></use>
+    <span>Jekyll</span>
 </svg>
 
 <style>
 /* On svg element. */
-.logo-small {
-    width: 20px;
-    height: 20px;
+.logo-large {
+    width: 50px;
+    height: 50px;
 }
 
 /* On external svg asset loaded using `use`. */
