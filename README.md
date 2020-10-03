@@ -34,7 +34,7 @@ Styling:
 {% assign logo_base = 'https://michaelcurrin.github.io/logos/assets/img/' %}
 
 <svg class="logo-small">
-    <use xlink:href="{{ logo_base }}{{ name }}.svg#icon-{{ name }}"></use>
+    <use xlink:href="{{ logo_base }}{{ name }}.svg#logo-{{ name }}"></use>
 </svg>
 
 <style>
