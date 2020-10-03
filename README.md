@@ -1,6 +1,49 @@
 # Logos
 > Programming-related SVG logos and styling served as static assets
 
+This is intended for Jekyll-based static sites or just plain HTML sites, where there are programming logos for Docker, Go, Python, etc. that need to be rendered as small or large, plain or colored icons.
+
+
+## Preview
+
+### Code
+
+{% raw %}
+```liquid
+{% assign name = 'cmake' %}
+{% assign logo_base_url = 'https://michaelcurrin.github.io/logos/assets/img/' %}
+
+<svg class="logo-small">
+    <use xlink:href="{{ logo_base_url }}{{ name }}.svg#logo-{{ name }}"></use>
+</svg>
+```
+{% endraw %}
+
+Styling:
+
+```css
+.logo-small {
+    width: 20px;
+    height: 20px;
+}
+```
+
+### Result
+
+{% assign name = 'cmake' %}
+{% assign logo_base = 'https://michaelcurrin.github.io/logos/assets/img/' %}
+
+<svg class="logo-small">
+    <use xlink:href="{{ logo_base }}{{ name }}.svg#icon-{{ name }}"></use>
+</svg>
+
+<style>
+.logo-small {
+    width: 20px;
+    height: 20px;
+}
+</style>
+
 
 ## Features
 
@@ -12,7 +55,7 @@
 
 ## About
 
-### Simple Icons
+### Built on Simple Icons
 
 This project is built on SVG icons downloaded from [simpleicons.org](https://simpleicons.org/).
 
@@ -27,6 +70,8 @@ Here is basic usage of an icon directly from that site:
 There are hundreds of icons there. So to make it easily to look-up the ones which are relevant to technologies and brands I use, I put them here in one place in a small repo.
 
 I serve the assets as a static GitHub Pages site. And the load them on my other projects.
+
+- [michaelcurrin.github.io/logos/assets/img/cmake.svg](https://michaelcurrin.github.io/logos/assets/img/cmake.svg)
 
 I can bundle all the logos in one file and then reference them by ID, to reduce the number of files to be fetched.
 
