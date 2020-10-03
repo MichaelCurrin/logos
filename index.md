@@ -14,6 +14,12 @@ GitHub repo: [MichaelCurrin/logos](https://github.com/MichaelCurrin/logos)
 
 ## Sample usage
 
+Here we have a demo of how to take a logo like `jekyll.svg`:
+
+- [michaelcurrin.github.io/logos/assets/img/jekyll.svg](https://michaelcurrin.github.io/logos/assets/img/jekyll.svg)
+
+And use it on a page.
+
 ### Code
 
 {% raw %}
@@ -79,13 +85,13 @@ Here is basic usage of an icon directly from that site:
 <img src="https://simpleicons.org/icons/python.svg" width="30" height="30" />
 ```
 
-### Bundling
+### Collecting
 
 There are hundreds of icons there. So to make it easily to look-up the ones which are relevant to technologies and brands I use, I put them here in one place in a small repo.
 
 I serve the assets as a static GitHub Pages site. And the load them on my other projects.
 
-- [michaelcurrin.github.io/logos/assets/img/cmake.svg](https://michaelcurrin.github.io/logos/assets/img/cmake.svg)
+### Bundling
 
 I can bundle all the logos in one file and then reference them by ID, to reduce the number of files to be fetched.
 
