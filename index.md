@@ -18,7 +18,7 @@ GitHub repo: [MichaelCurrin/logos](https://github.com/MichaelCurrin/logos)
 
 {% raw %}
 ```liquid
-{% assign name = 'cmake' %}
+{% assign name = 'jekyll' %}
 {% assign logo_base_url = 'https://michaelcurrin.github.io/logos/assets/img/' %}
 
 <svg class="logo-small">
@@ -30,19 +30,21 @@ GitHub repo: [MichaelCurrin/logos](https://github.com/MichaelCurrin/logos)
 Styling:
 
 ```css
+/* On svg element. */
 .logo-small {
     width: 20px;
     height: 20px;
 }
 
-#logo-cmake {
+/* On external svg asset loaded using `use`. */
+#logo-jekyll {
     color: #064F8C;
 }
 ```
 
 ### Result
 
-{% assign name = 'cmake' %}
+{% assign name = 'jekyll' %}
 {% assign logo_base = 'https://michaelcurrin.github.io/logos/assets/img/' %}
 
 <svg class="logo-small">
@@ -57,7 +59,7 @@ Styling:
 }
 
 /* On external svg asset loaded using `use`. */
-#logo-cmake {
+#logo-jekyll {
     color: #064F8C;
 }
 </style>
