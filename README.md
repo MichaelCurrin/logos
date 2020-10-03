@@ -42,9 +42,15 @@ Styling:
 </svg>
 
 <style>
+/* On svg element. */
 .logo-small {
     width: 20px;
     height: 20px;
+}
+
+/* On external svg asset loaded using `use`. */
+#logo-cmake {
+    color: #064F8C;
 }
 </style>
 
