@@ -3,6 +3,12 @@
 
 This is intended for Jekyll-based static sites or just plain HTML sites, where there are programming logos for Docker, Go, Python, etc. that need to be rendered as small or large, plain or colored icons.
 
+
+## Documentation
+
+- [michaelcurrin.github.io/logos/](https://michaelcurrin.github.io/logos/)
+
+
 ## License
 
 Released under [CC0 1.0 Universal](/LICENSE).
