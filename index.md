@@ -29,7 +29,7 @@ And use it on a page.
 
 <svg class="logo-small">
     <use xlink:href="{{ logo_base_url }}{{ name }}.svg#logo-{{ name }}"></use>
-    <span>Jekyll</span>
+    <span>Jekyll logo</span>
 </svg>
 ```
 {% endraw %}
@@ -39,8 +39,8 @@ Styling:
 ```css
 /* On svg element. */
 .logo-large {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 /* On external svg asset loaded using `use`. */
@@ -56,14 +56,14 @@ Styling:
 
 <svg class="logo-small">
     <use xlink:href="{{ logo_base }}{{ name }}.svg#logo-{{ name }}"></use>
-    <span>Jekyll</span>
+    <span>Jekyll logo</span>
 </svg>
 
 <style>
 /* On svg element. */
 .logo-large {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 /* On external svg asset loaded using `use`. */
