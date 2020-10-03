@@ -26,6 +26,10 @@ Styling:
     width: 20px;
     height: 20px;
 }
+
+#logo-cmake {
+    color: #064F8C;
+}
 ```
 
 ### Result
@@ -84,6 +88,8 @@ If you use `img` for an SVG, you can't use CSS to change the color of the CSS. S
 Rather than hardcoding the color in the SVG, I go for a more flexible approach of setting `fill="currentColor"`, which makes the SVG use the color as set on the outer element (such as `div` or even of `svg` itself), making it easy to customize an SVG without using JavaScript.
 
 Note that the ID used is `logo-python` for example, to avoid conflicts with a possible `python` ID elsewhere on the page where the SVG is used.
+
+The size of the SVG can be controlled using a `class` set on the `svg` or outer `div` as `logo-small` or `logo-medium`. This is not set on the SVG itself, to allow freedom (though I might make small and medium versions of the SVGs under different URLs).
 
 Further, I collect the colors by hand from the repo (each brand has a hex color) and add this to CSS which can be applied in your `head` tag if needed. I also mark the color as light or dark, for readability. For example, if you use a dark purple color for a brand, then you need to use **white** for the SVG and text label and not **black**.
 
