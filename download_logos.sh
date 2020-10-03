@@ -49,12 +49,12 @@ LOGOS=(
 
 for LOGO in ${LOGOS[@]}; do
   # Useful for development - skip existing files. Turn this off for updates.
-  [ -f "$LOGO.svg" ] && continue
+  # [ -f "$LOGO.svg" ] && continue
 
   echo $LOGO
   curl -O "https://simpleicons.org/icons/$LOGO.svg"
   sed -i '' \
-    "s/\"img\"/\"img\" id=\"icon-$LOGO\"/g
+    "s/\"img\"/\"img\" id=\"logo-$LOGO\"/g
     s/path/path fill=\"currentColor\"/g" \
     "$LOGO.svg"
 done
