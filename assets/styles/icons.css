@@ -1,0 +1,10 @@
+/* Not to big otherwise the size of the blocks distort, unless text is also made bigger. */
+.logo-small {
+    width: 20px;
+    height: 20px;
+}
+
+.logo-medium {
+    width: 30px;
+    height: 30px;
+}
