@@ -1,0 +1,22 @@
+### Site metadata ###
+
+title: Logos
+description: "Programming-related SVG logos and styling served as static assets"
+
+github_username: MichaelCurrin
+
+### Build settings ###
+
+url: "https://michaelcurrin.github.io"
+baseurl: "/logos"
+
+theme: minima
+
+plugins:
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
