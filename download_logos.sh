@@ -29,6 +29,8 @@ LOGOS=(
   \
   go
   \
+  graphql
+  \
   visualstudiocode
   \
   javascript
