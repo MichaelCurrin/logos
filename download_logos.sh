@@ -45,6 +45,8 @@ LOGOS=(
   postgresql
   \
   netlify
+  \
+  terraform
 )
 
 # FIXME If the curl returns 404, this won't stop the script so this must be handled still.
