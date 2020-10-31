@@ -4,11 +4,15 @@
 cd assets/img
 
 # Comments include the name on shields.io in case you use logo field there.
+# TODO alphabetical
 LOGOS=(
   c
   python
   java
   php
+  dart
+  ansible
+  nginx
   \
   cmake
   gnubash # gnu-bash
