@@ -4,57 +4,44 @@
 cd assets/img
 
 # Comments include the name on shields.io in case you use logo field there.
-# TODO alphabetical
 LOGOS=(
-  c
-  python
-  java
-  php
-  dart
   ansible
-  nginx
-  react
-  vue-dot-js
+  c
   circleci
-  eslint
-  \
   cmake
-  gnubash # gnu-bash
-  \
+  css3
+  dart
+  deno
   docker
-  kubernetes
-  \
+  eslint
   git
   github
   githubactions
-  \
-  markdown
-  html5
-  css3
-  \
-  ruby
-  jekyll
-  \
+  gnubash # gnu-bash
   go
-  \
   graphql
-  \
-  visualstudiocode
-  \
+  html5
+  java
   javascript
-  typescript
-  npm
-  node-dot-js # node.js
-  deno
-  yarn
-  \
+  jekyll
+  kubernetes
+  markdown
   mysql
-  sqlite
-  postgresql
-  \
   netlify
-  \
+  nginx
+  node-dot-js # node.js
+  npm
+  php
+  postgresql
+  python
+  react
+  ruby
+  sqlite
   terraform
+  typescript
+  visualstudiocode
+  vue-dot-js
+  yarn
 )
 
 # FIXME If the curl returns 404, this won't stop the script so this must be handled still.
