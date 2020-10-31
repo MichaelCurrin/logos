@@ -13,6 +13,10 @@ LOGOS=(
   dart
   ansible
   nginx
+  react
+  vue-dot-js
+  circleci
+  eslint
   \
   cmake
   gnubash # gnu-bash
@@ -56,8 +60,8 @@ LOGOS=(
 # FIXME If the curl returns 404, this won't stop the script so this must be handled still.
 
 for LOGO in ${LOGOS[@]}; do
-  # Useful for development - skip existing files. Turn this off for updates.
-  # [ -f "$LOGO.svg" ] && continue
+  # Useful for rapid development - skip existing files and do not try and update. Remove this step to updates.
+  [ -f "$LOGO.svg" ] && continue
 
   echo $LOGO
   curl -O "https://simpleicons.org/icons/$LOGO.svg"
