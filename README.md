@@ -4,6 +4,17 @@
 This is intended for Jekyll-based static sites or just plain HTML sites, where there are programming logos for Docker, Go, Python, etc. that need to be rendered as small or large, plain or colored icons.
 
 
+## Deprecation notice
+
+I have no need for this project anymore. It revolved around fetching SVGs from the served assets.
+
+I decided to rather make a theme which contains the SVGs in the repo. This allows build-time errors to come up if you use a logo that doesn't exist.
+
+Find the new repo here:
+
+[![MichaelCurrin - minima](https://img.shields.io/static/v1?label=MichaelCurrin&message=minima&color=blue&logo=github)](https://github.com/MichaelCurrin/minima)
+
+
 ## Documentation
 
 - [michaelcurrin.github.io/logos/](https://michaelcurrin.github.io/logos/)
